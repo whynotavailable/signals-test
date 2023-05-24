@@ -21,7 +21,7 @@ export class AppComponent implements OnInit, OnDestroy {
     })).subscribe()
 
   async reload(val: number) {
-    this.pops.add(`${val}`);
+    this.pops.add(`${val} `);
   }
 
   get config() {
